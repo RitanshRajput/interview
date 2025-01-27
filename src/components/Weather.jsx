@@ -42,7 +42,7 @@ const WeatherApp = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100 p-4">
+    <div className="flex justify-center items-center min-h-screen bg-gray-100 p-4 bg-gray-950">
       <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-sm">
         <h1 className="text-xl font-semibold text-center mb-4">Weather App</h1>
 

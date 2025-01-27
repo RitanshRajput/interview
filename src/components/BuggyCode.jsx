@@ -7,9 +7,15 @@ const BuggyCode = () => {
     }, 1000);
   }, [count]);
   return (
-    <div>
+    <div className="flex justify-center flex-col items-center w-full h-[95vh] bg-gray-950 text-white">
       {" "}
-      <p>Count: {count}</p> <button onClick={() => setCount(count + 1)}>Increment</button>{" "}
+      <p>Count: {count}</p>
+      <button
+        className="bg-blue-400 w-[100px] rounded  h-[40px]"
+        onClick={() => setCount(count + 1)}
+      >
+        Increment
+      </button>{" "}
     </div>
   );
 };

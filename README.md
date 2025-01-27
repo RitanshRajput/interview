@@ -1,8 +1,7 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- CLone this repo in your local machine
+-  run npm i  (install all dependency)
+-  run npm run dev  (run the server)
+-  for weather page, got to openweather and login and generate your api and use your api in place of API_KEY="here"
+  
